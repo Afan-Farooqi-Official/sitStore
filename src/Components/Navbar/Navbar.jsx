@@ -22,7 +22,7 @@ const Navbar = () => {
             </div>
 
             {/* navbar middle */}
-            <div className="navbar_middle flex justify-center items-center bg-[#f0f2f3] w-full h-[84px]">
+            <div className="navbar_middle flex justify-center items-center bg-[#f0f2f3] w-full h-[60px]">
                 <div className="lg:container grid grid-cols-3 items-center">
                     <div className="logo_wrapper">
                         <Link to='/' className="text-3xl text-black font-inter font-medium flex items-center gap-2">
@@ -37,7 +37,7 @@ const Navbar = () => {
                     </div>
 
                     {/* navbar middle right */}
-                    <div className="navbar_middle_right flex items-center gap-4">
+                    <div className="navbar_middle_right pl-28 flex items-center gap-4">
                         <button className="btn capitalize">
                             <ShoppingCart />cart <div className="badge badge-sm bg-[#029fae]">5</div>
                         </button>
@@ -47,7 +47,7 @@ const Navbar = () => {
 
                         <div className="dropdown">
                           <div tabIndex={0} role="button" className="btn m-1"><User /></div>
-                          <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+                          <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-1 w-30 p-2 shadow-sm">
                             <li><a><Link>Account</Link></a></li>
                             <li><a>Logout</a></li>
                           </ul>
@@ -57,7 +57,7 @@ const Navbar = () => {
             </div>
 
             {/* navbar bottom */}
-            <div className="navbar_bottom flex items-center justify-center w-full h-[75px] bg-white border-b-[1px] border-[#e1e35]">
+            <div className="navbar_bottom flex items-center justify-center w-full h-[75px] bg-white border-b-[1px] border-[#cac8e1]">
                 <div className="lg:container flex items-center justify-between">
 
                     <div className="navbar_bottom_left flex items-center gap-8">
