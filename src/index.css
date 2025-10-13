@@ -81,3 +81,16 @@
     list-style: none; 
     text-align: center;
 }
+
+.client_feedback {
+    position: relative;
+}
+.client_feedback::before {
+    content: "“";
+    position: absolute;
+    top: -40px;
+    left: -25px;
+    font-size: 80px;
+    color: #007580;
+    z-index: -1;
+}

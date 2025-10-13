@@ -48,8 +48,8 @@ const Navbar = () => {
                         <div className="dropdown">
                           <div tabIndex={0} role="button" className="btn m-1"><User /></div>
                           <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-1 w-30 p-2 shadow-sm">
-                            <li><a><Link>Account</Link></a></li>
-                            <li><a>Logout</a></li>
+                            <li><Link>Account</Link></li>
+                            <li><Link>Logout</Link></li>
                           </ul>
                         </div>
                     </div>
@@ -65,20 +65,20 @@ const Navbar = () => {
                         <div className="dropdown dropdown-start">
                             <div tabIndex={0} role="button" className="btn m-1 flex items-center gap-5 capitalize"><Menu /> all categories</div>
                             <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
-                                <li><a>Chair</a></li>
-                                <li><a>Paint</a></li>
-                                <li><a>Shirt</a></li>
-                                <li><a>T-Shirt</a></li>
-                                <li><a>Jacket</a></li>
+                                <li><a>Living Room Chairs</a></li>
+                                <li><a>Dining & Kitchen Chairs</a></li>
+                                <li><a>Office & Study Chairs</a></li>
+                                <li><a>Outdoor & Patio Chairs</a></li>
+                                <li><a>Specialty & Kids Chairs</a></li>
                             </ul>
                         </div>
 
                         <nav className="flex items-center gap-8">
-                        <NavLink to='/' className='text-sm text-[#029fae] font-inter font-medium capitalize'>Home</NavLink>
-                        <NavLink className='text-sm text-[#636270] font-inter font-medium capitalize'>Shop</NavLink>
-                        <NavLink className='text-sm text-[#636270] font-inter font-medium capitalize'>Product</NavLink>
-                        <NavLink className='text-sm text-[#636270] font-inter font-medium capitalize'>Pages</NavLink>
-                        <NavLink className='text-sm text-[#636270] font-inter font-medium capitalize'>About</NavLink>
+                        <NavLink to='/' className='text-sm text-[#029fae] font-inter font-medium capitalize hover:text-[#029fae] transition-all duration-300 ease-in-out cursor-pointer'>Home</NavLink>
+                        <NavLink className='text-sm text-[#636270] font-inter font-medium capitalize hover:text-[#029fae] transition-all duration-300 ease-in-out cursor-pointer'>Shop</NavLink>
+                        <NavLink className='text-sm text-[#636270] font-inter font-medium capitalize hover:text-[#029fae] transition-all duration-300 ease-in-out cursor-pointer'>Product</NavLink>
+                        <NavLink className='text-sm text-[#636270] font-inter font-medium capitalize hover:text-[#029fae] transition-all duration-300 ease-in-out cursor-pointer'>Pages</NavLink>
+                        <NavLink className='text-sm text-[#636270] font-inter font-medium capitalize hover:text-[#029fae] transition-all duration-300 ease-in-out cursor-pointer'>About</NavLink>
                         </nav>
                     </div>
 

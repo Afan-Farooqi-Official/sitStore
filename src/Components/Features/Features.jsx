@@ -55,7 +55,7 @@ const Features = () => {
                                         <img className="w-full h-full object-cover" src={feature.image} alt={feature.title} />
                                         {
                                             feature?.status && (
-                                                <div className="absolute top-4 left-4 bg-[#007588] text-white px-2 py-1 rounded-lg">
+                                                <div className="absolute top-4 left-4 bg-[#007588] text-white px-2 py-1 rounded-lg  hover:bg-[#029fae] transition-all duration-300 ease-in-out">
                                                     <button className="text-sm font-normal font-inter">{feature?.status}</button>
                                                 </div>
                                             )
@@ -64,7 +64,7 @@ const Features = () => {
                                     <div className="features_content">
                                         <div className="flex items-center justify-between">
                                             <h4 className="text-base text-[#007588] capitalize font-inter font-normal mb-4">{feature?.title}</h4>
-                                            <span className="bg-[#007588] h-[44px] w-[44px] rounded-lg flex items-center justify-center" ><ShoppingCart size='1.5rem' color="#fff" /></span>
+                                            <span className="bg-[#007588] h-[44px] w-[44px] rounded-lg flex items-center justify-center hover:bg-[#029fae] transition-all duration-300 ease-in-out cursor-pointer" ><ShoppingCart size='1.5rem' color="#fff" /></span>
                                         </div>
                                         <p className="text-xl flex items-center gap-2 text-[#272343] font-semibold font-inter">
                                             {feature?.price}

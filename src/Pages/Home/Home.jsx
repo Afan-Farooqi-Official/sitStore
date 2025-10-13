@@ -3,6 +3,8 @@ import Delivery from "../../Components/Delivery/Delivery"
 import Brand from "../../Components/Brand/Brand";
 import Features from "../../Components/Features/Features";
 import Categories from "../../Components/Categories/Categories";
+import Product from "../../Components/Product/Product";
+import Client from "../../Components/Client/Client";
 
 const Home = () => {
 
@@ -27,6 +29,14 @@ const Home = () => {
             
             <div className="w-full flex items-center justify-center mb-[80px]">
                 <Categories></Categories>
+            </div>
+
+            <div className="w-full flex items-center justify-center mb-[80px]">
+                <Product></Product>
+            </div>
+
+            <div className="w-full flex items-center justify-center pb-[80px] bg-[#f0f2f3] min-h-[400px]">
+                <Client></Client>
             </div>
         </div>
     );
