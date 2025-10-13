@@ -34,92 +34,92 @@ const Product = () => {
 
     const products = [
         {
-            title: 'library stool',
+            title: 'TuftSpiral Chair',
             status: 'New',
             price: '$250',
-            image: '/src/assets/products/product_4.png',
+            image: '/public/assets/products/product_4.png',
             currentPrice: '$200',
             product: 'newest'
         },
         {
-            title: '',
+            title: 'Paint-Tip Stool',
             price: '$250',
-            image: '/src/assets/products/product_7.png',
+            image: '/public/assets/products/product_7.png',
             currentPrice: '$200',
             product: 'best_seller'
         },
         
         {
-            title: 'Lounge Chair',
+            title: 'TuftBox Chair',
             price: '$300',
-            image: '/src/assets/products/product_2.png',
+            image: '/public/assets/products/product_2.png',
             currentPrice: '$250',
             product: 'featured'
         },
         {
-            title: 'library stool',
+            title: 'Library Chair',
             status: 'New',
             price: '$250',
-            image: '/src/assets/products/product_1.png',
+            image: '/public/assets/products/product_1.png',
             currentPrice: '$200',
             product: 'newest'
         },
         {
-            title: 'Accent Chair',
+            title: 'MonoOrange Chair',
             price: '$400',
-            image: '/src/assets/products/product_3.png',
+            image: '/public/assets/products/product_3.png',
             currentPrice: '$350',
             product: 'best_seller'
         },
         {
-            title: 'library stool',
+            title: 'AngleLeg Table',
             price: '$250',
-            image: '/src/assets/products/product_1.png',
+            image: '/public/assets/products/product_5.png',
             currentPrice: '$200',
-            product: 'featured'
+            product: 'trending'
         },
         {
-            title: 'Reading Chair',
+            title: 'WorkFlex Chair',
             price: '$250',
-            image: '/src/assets/products/product_6.png',
+            image: '/public/assets/products/product_6.png',
             currentPrice: '$200',
             product: 'trending'
         },
         
         {
-            title: 'Reading Chair',
+            title: 'TuftSpiral Chair',
             price: '$250',
-            image: '/src/assets/products/product_4.png',
+            image: '/public/assets/products/product_4.png',
             currentPrice: '$200',
             product: 'featured'
         },
         {
-            title: 'Lounge Chair',
+            title: 'TuftBox Chair',
             status: 'New',
             price: '$300',
-            image: '/src/assets/products/product_2.png',
+            image: '/public/assets/products/product_2.png',
             currentPrice: '$250',
             product: 'newest'
         },
         {
-            title: 'Reading Chair',
+            title: 'Paint-Tip Stool',
             price: '$250',
-            image: '/src/assets/products/product_7.png',
+            image: '/public/assets/products/product_7.png',
             currentPrice: '$200',
             product: 'trending'
         },
         {
-            title: 'Reading Chair',
+            title: 'Library Chair',
             price: '$250',
-            image: '/src/assets/products/product_5.png',
+            image: '/public/assets/products/product_1.png',
             currentPrice: '$200',
-            product: 'trending'
+            product: 'featured'
         },
         {
-            title: 'Accent Chair',
+            title: 'MonoOrange Chair',
             status: 'New',
             price: '$400',
-            image: '/src/assets/products/product_3.png',
+            image: '/public/assets/products/product_3.png',
             currentPrice: '$350',
             product: 'newest'
         },

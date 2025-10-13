@@ -6,29 +6,29 @@ const Features = () => {
 
     const features = [
         {
-            title: 'library stool',
+            title: 'Library Chair',
             status: 'New',
             price: '$250',
-            image: '/src/assets/features/product_1.png',
+            image: '/public/assets/features/product_1.png',
             currentPrice: '$200'
         },
         {
-            title: 'Lounge Chair',
+            title: 'TuftBox Chair',
             price: '$300',
-            image: '/src/assets/features/product_2.png',
+            image: '/public/assets/features/product_2.png',
             currentPrice: '$250'
         },
         {
-            title: 'Accent Chair',
+            title: 'MonoOrange Chair',
             status: 'New',
             price: '$400',
-            image: '/src/assets/features/product_3.png',
+            image: '/public/assets/features/product_3.png',
             currentPrice: '$350'
         },
         {
-            title: 'Reading Chair',
+            title: 'WorkFlex Chair',
             price: '$250',
-            image: '/src/assets/features/product_4.png',
+            image: '/public/assets/features/product_4.png',
             currentPrice: '$200'
         },
     ];

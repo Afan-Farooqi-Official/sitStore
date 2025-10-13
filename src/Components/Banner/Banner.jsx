@@ -10,25 +10,25 @@ const Banner = () => {
             id: 1,
             title: "Elevate Your Space with Timeless Furniture Elegance",
             subTitle: "Welcome to sitStore",
-            image: "/src/assets/banner/banner_image.png"
+            image: "/public/assets/banner/banner_image.png"
         },
         {
             id: 2,
             title: "Elevate Your Space with Timeless Furniture Elegance",
             subTitle: "Welcome to sitStore",
-            image: "/src/assets/banner/banner_image.png"
+            image: "/public/assets/banner/banner_image1.png"
         },
         {
             id: 3,
             title: "Elevate Your Space with Timeless Furniture Elegance",
             subTitle: "Welcome to sitStore",
-            image: "/src/assets/banner/banner_image.png"
+            image: "/public/assets/banner/banner_image2.png"
         },
         {
             id: 4,
             title: "Elevate Your Space with Timeless Furniture Elegance",
             subTitle: "Welcome to sitStore",
-            image: "/src/assets/banner/banner_image.png"
+            image: "/public/assets/banner/banner_image3.png"
         }
     ]
 
