@@ -8,25 +8,25 @@ const Banner = () => {
     const products = [
         {
             id: 1,
-            title: "Elevate Your Space with Timeless Furniture Elegance",
+            title: "Where Comfort Meets Craft — Discover the Chair That Defines Your Space",
             subTitle: "Welcome to sitStore",
             image: "/public/assets/banner/banner_image.png"
         },
         {
             id: 2,
-            title: "Elevate Your Space with Timeless Furniture Elegance",
+            title: "Sit with Style — Chairs That Speak the Language of Elegance",
             subTitle: "Welcome to sitStore",
             image: "/public/assets/banner/banner_image1.png"
         },
         {
             id: 3,
-            title: "Elevate Your Space with Timeless Furniture Elegance",
+            title: "From Study to Serenity — The Chair That Fits Every Moment",
             subTitle: "Welcome to sitStore",
             image: "/public/assets/banner/banner_image2.png"
         },
         {
             id: 4,
-            title: "Elevate Your Space with Timeless Furniture Elegance",
+            title: "Designed to Support, Styled to Impress — Your Perfect Seat Awaits",
             subTitle: "Welcome to sitStore",
             image: "/public/assets/banner/banner_image3.png"
         }
