@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./../Components/Navbar/Navbar"
 import Home from "../Pages/Home/Home"
 import Auth from "../Pages/Auth/Auth";
@@ -12,17 +12,18 @@ const MainLayout = () => {
     return (
         <BrowserRouter>
             <Navbar />
+
             <Routes>
                 <Route path="/" element={
                     <AuthCheck>
-                        <Home/>
+                        <Home />
                     </AuthCheck>
-                    }/>
-                <Route path="auth" element={<Auth/>}>
-                    <Route path="login" element={<Login/>} />
-                    <Route path="register" element={<Register/>} />
+                } />
+                <Route path="auth" element={<Auth />}>
+                    <Route path="login" element={<Login />} />
+                    <Route path="register" element={<Register />} />
                 </Route>
-                <Route path="*" element={<Error/>} />
+                <Route path="*" element={<Error />} />
             </Routes>
 
             <Footer />
