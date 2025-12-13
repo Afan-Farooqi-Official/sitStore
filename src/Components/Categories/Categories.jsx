@@ -7,25 +7,25 @@ const Categories = () => {
         {
             title: 'Wing Chair',
             products: '3,584 Products',
-            image: '/public/assets/categories/categories_1.png',
+            image: '/assets/categories/categories_1.png',
             currentPrice: '$200'
         },
         {
             title: 'Paint-Tip Stool',
             products: '3,584 Products',
-            image: '/public/assets/categories/categories_2.png',
+            image: '/assets/categories/categories_2.png',
             currentPrice: '$200'
         },
         {
             title: 'WorkFlex Chair',
             products: '3,584 Products',
-            image: '/public/assets/categories/categories_3.png',
+            image: '/assets/categories/categories_3.png',
             currentPrice: '$200'
         },
         {
             title: 'AngleLeg Table',
             products: '3,584 Products',
-            image: '/public/assets/categories/categories_4.png',
+            image: '/assets/categories/categories_4.png',
             currentPrice: '$200'
         }
     ];

@@ -16,7 +16,7 @@ const Register = () => {
     return (
         <div className="container mx-auto p-[80px]">
             <div className="max-w-[550px] w-full min-h-[382px] mx-auto flex items-center justify-center flex-col rounded-lg border-[1px] border-[#9a9caa]">
-                <h3 className="text-xl font-inter font-[#272343] font-semibold mb-5 capiatlize">Register</h3>
+                <h3 className="text-xl font-inter font-semibold mb-5 capiatlize">Register</h3>
 
                 <form action="#" onSubmit={submitHandler} className="flex flex-col items-center gap-4 my-4 w-full px-4">
                     <input type="text" onChange={(e) => setName(e.target.value)} placeholder="Your Name" className="w-full h-[50px] bg-[#f0f2f3] rounded-lg pl-3.5" />

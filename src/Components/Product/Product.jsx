@@ -37,14 +37,14 @@ const Product = () => {
             title: 'TuftSpiral Chair',
             status: 'New',
             price: '$250',
-            image: '/public/assets/products/product_4.png',
+            image: '/assets/products/product_4.png',
             currentPrice: '$200',
             product: 'newest'
         },
         {
             title: 'Paint-Tip Stool',
             price: '$250',
-            image: '/public/assets/products/product_7.png',
+            image: '/assets/products/product_7.png',
             currentPrice: '$200',
             product: 'best_seller'
         },
@@ -52,7 +52,7 @@ const Product = () => {
         {
             title: 'TuftBox Chair',
             price: '$300',
-            image: '/public/assets/products/product_2.png',
+            image: '/assets/products/product_2.png',
             currentPrice: '$250',
             product: 'featured'
         },
@@ -60,28 +60,28 @@ const Product = () => {
             title: 'Library Chair',
             status: 'New',
             price: '$250',
-            image: '/public/assets/products/product_1.png',
+            image: '/assets/products/product_1.png',
             currentPrice: '$200',
             product: 'newest'
         },
         {
             title: 'MonoOrange Chair',
             price: '$400',
-            image: '/public/assets/products/product_3.png',
+            image: '/assets/products/product_3.png',
             currentPrice: '$350',
             product: 'best_seller'
         },
         {
             title: 'AngleLeg Table',
             price: '$250',
-            image: '/public/assets/products/product_5.png',
+            image: '/assets/products/product_5.png',
             currentPrice: '$200',
             product: 'trending'
         },
         {
             title: 'WorkFlex Chair',
             price: '$250',
-            image: '/public/assets/products/product_6.png',
+            image: '/assets/products/product_6.png',
             currentPrice: '$200',
             product: 'trending'
         },
@@ -89,7 +89,7 @@ const Product = () => {
         {
             title: 'TuftSpiral Chair',
             price: '$250',
-            image: '/public/assets/products/product_4.png',
+            image: '/assets/products/product_4.png',
             currentPrice: '$200',
             product: 'featured'
         },
@@ -97,21 +97,21 @@ const Product = () => {
             title: 'TuftBox Chair',
             status: 'New',
             price: '$300',
-            image: '/public/assets/products/product_2.png',
+            image: '/assets/products/product_2.png',
             currentPrice: '$250',
             product: 'newest'
         },
         {
             title: 'Paint-Tip Stool',
             price: '$250',
-            image: '/public/assets/products/product_7.png',
+            image: '/assets/products/product_7.png',
             currentPrice: '$200',
             product: 'trending'
         },
         {
             title: 'Library Chair',
             price: '$250',
-            image: '/public/assets/products/product_1.png',
+            image: '/assets/products/product_1.png',
             currentPrice: '$200',
             product: 'featured'
         },
@@ -119,7 +119,7 @@ const Product = () => {
             title: 'MonoOrange Chair',
             status: 'New',
             price: '$400',
-            image: '/public/assets/products/product_3.png',
+            image: '/assets/products/product_3.png',
             currentPrice: '$350',
             product: 'newest'
         },

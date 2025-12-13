@@ -61,7 +61,7 @@ const Footer = () => {
             </div>
 
             
-            <div className="footer_bottom w-full h-[75px] flex items-center justify-center items-center">
+            <div className="footer_bottom w-full h-[75px] flex items-center justify-center">
                 <div className="container mx-auto">
                     <div className="flex items-center justify-between">
                         <div>
