@@ -1,6 +1,6 @@
 import { MoveRight } from "lucide-react";
 import { useState } from "react";
-import { Link, useNavigate } from "react-router";
+import { Link, useNavigate } from "react-router-dom";
 
 const Register = () => {
 

@@ -11,7 +11,7 @@ const Login = () => {
     const submitHandle = () => {
         // e.preventDefault();
         // console.log('hello')
-        navigate('/')
+        navigate('/home')
     }
 
     return (
