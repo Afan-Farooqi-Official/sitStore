@@ -43,7 +43,6 @@ const Client = () => {
         slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000
     };
 
     return (
@@ -56,7 +55,7 @@ const Client = () => {
                 <Slider {...settings}>
                     {
                         clients?.map((client, index) => (
-                            <div key={index} className="p-8 border border-[#E0E0E0] rounded-lg mr-4 client_card">
+                            <div key={index} className="p-6 border border-[#E0E0E0] rounded-lg mr-4 client_card">
                                 <p className="text-2x1 text-[#636270] font-inter font-normal client_feedback mb-1">{client.feedback}</p>
                                 <div className="flex items-center">
                                     <h4><User size='3rem' /></h4>

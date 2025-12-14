@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div>
 
-            <div className="w-full h-[100vh] bg-[#f0f5f3] flex items-center justify-center rounded-b-2xl">
+            <div className="w-full h-[100vh-180px] bg-[#f0f5f3] flex items-center justify-center rounded-b-2xl">
                 <Banner></Banner>
             </div>
 
